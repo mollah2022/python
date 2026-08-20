@@ -1,5 +1,5 @@
 import threading
-
+from operator import eq
 def task(name):
     print(f"{name} is running")
 
